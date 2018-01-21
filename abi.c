@@ -14,5 +14,7 @@ if(33<=a[i]<=47||58<=a[i]<=64||91<=a[i]<=96||123<=a[i]<=126)
 count=count+1;
 }
 }
-printf("the total no of special characters in string is %d",count);
+printf("the total no of special characters in string is %d",count); 
+return 0;
 }
+getch();
