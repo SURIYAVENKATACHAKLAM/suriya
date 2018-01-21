@@ -7,7 +7,7 @@ int main() {
 	printf("%d",a);
 	else
 	printf("%d",--a);
- 
+ i luv u buji
 	return 0;
 }
 getch();
