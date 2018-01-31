@@ -14,13 +14,5 @@ void main()
       c++;
     }
   }
-  if(c==a)
-  {
-    printf("yes");
-    
-  }
-  else
-  {
-    printf("no");
-  }
-}
+  
+  
