@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
 int a;
 printf("enter the number");
@@ -13,5 +13,5 @@ else
 {
 printf("no");
 }
-getch();
+  return 0;
 }
