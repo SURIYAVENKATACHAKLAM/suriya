@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+    char ch[100];
+    int i;
+    printf("enter the string");
+    scanf("%[^\n]s",&ch);
+    ch[0]=toupper(ch[0]);
+    for(i=0;ch[i]!='\0';i++)
+    {
+        if(ch[i]==' ')
+        {
+            ch[i+1]=toupper(ch[i+1]);
+        }
+    }
+    printf("%s",ch);
+    return 0;
+}
